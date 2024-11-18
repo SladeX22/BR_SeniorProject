@@ -7,9 +7,11 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Main extends Application {
+public class Main extends Application
+{
     @Override
-    public void start(Stage stage) throws IOException {
+    public void start(Stage stage) throws IOException
+    {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("mainController.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Cost of Living Calculator");
@@ -17,7 +19,8 @@ public class Main extends Application {
         stage.show();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         launch();
     }
 }

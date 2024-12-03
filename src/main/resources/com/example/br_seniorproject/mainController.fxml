@@ -9,7 +9,7 @@
    <top>
       <Pane prefHeight="30.0" prefWidth="600.0" BorderPane.alignment="CENTER">
          <children>
-            <Label layoutY="6.0" prefHeight="17.0" prefWidth="132.0" text="Cost of Living Calculator" />
+            <Label layoutY="6.0" prefWidth="132.0" text="Cost of Living Calculator" />
          </children>
       </Pane>
    </top>

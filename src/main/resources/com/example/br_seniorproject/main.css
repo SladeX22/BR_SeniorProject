@@ -1,0 +1,62 @@
+.darkBG
+{
+    -fx-background-color: #6A7B9D;
+}
+
+.lightBG
+{
+    -fx-background-color: #B7C9D9;
+}
+
+
+
+.minimizeButton
+{
+    -fx-background-color: yellow;
+}
+
+.closeButton
+{
+    -fx-background-color: red;
+}
+
+.windowButton
+{
+    -fx-text-fill: black;
+    -fx-font-size: 10;
+
+    -fx-border-width: 1;
+    -fx-border-radius: 0 5 5 0;
+    -fx-border-color: black;
+}
+
+
+
+.navigationButton
+{
+    -fx-background-color: #B7C9D9;
+    -fx-background-radius: 35;
+
+    -fx-font-style: italic;
+    -fx-text-fill: #2F3C4E;
+}
+
+.questionButton
+{
+    -fx-background-color: #6A7B9D;
+    -fx-background-radius: 35;
+
+    -fx-text-style: italic;
+    -fx-text-fill: black;
+}
+
+.questionButton:disabled
+{
+    -fx-background-color: rgba(131, 139, 157, .75);
+    -fx-text-fill: white;
+}
+
+.dashboardButton
+{
+    -fx-background-color: #2F3C4E;
+}
